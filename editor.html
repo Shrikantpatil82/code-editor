@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDE</title>
+    <link rel="stylesheet" href="editor.css">
+</head>
+
+<body>
+    <div class="code-editor-container">
+        <div class="code-editor html-editor">
+            <div class="head-editor">
+                <div class="left-head">
+                    <img src="html logo.png" alt="logo" width="30px">
+                    <span>HTML</span>
+                </div>
+                <div class="right-head">
+                    <img src="copy.svg" alt="" class=" copy copy1">
+                </div>
+            </div>
+            <textarea class="html-input"></textarea>
+        </div>
+        <div class="code-editor css-editor">
+            <div class="head-editor">
+                <div class="left-head">
+                    <img src="css logo.png" alt="logo" width="30px">
+                    <span>CSS</span>
+                </div>
+                <div class="right-head">
+                    <img src="copy.svg" alt="" class=" copy copy2">
+                </div>
+            </div>
+            <textarea class="css-input"></textarea>
+        </div>
+        <div class="code-editor js-editor">
+            <div class="head-editor">
+                <div class="left-head">
+                    <img src="js logo.png" alt="logo" width="30px">
+                    <span>JS</span>
+                </div>
+                <div class="right-head">
+                    <img src="copy.svg" alt="" class=" copy copy3">
+                </div>
+            </div>
+            <textarea class="js-input"></textarea>
+        </div>
+    </div>
+    <div class="output-container">
+        <div class="output-head">
+            <span>OUTPUT</span>
+            <img src="save.svg" alt="" id="save">
+            <img src="full.svg" alt="" id="full">
+        </div>
+        <iframe id="output"></iframe>
+    </div>
+    <script src="editor.js"></script>
+</body>
+
+</html>
